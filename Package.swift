@@ -32,6 +32,7 @@ let package = Package(
     // Local package as downloaded from https://runtime-zip.esri.com/userContent/runtime/swift/sdk_swift/200.1.0/
     // That Package.swift was edited to reference the scframework folder instead of the zip
     // The ArcGISToolkit is now added to the EFArcGISv200Proto project as a framework
+    // Current SwiftDaily ArcGIs and ArcGISCore frameworks 200.1.0-3782
     dependencies: [
         .package(name: "arcgis-maps-sdk-swift", path: "../SwiftDaily")
         ],
